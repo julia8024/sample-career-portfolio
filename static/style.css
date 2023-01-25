@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    list-style-type: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+section {
+    width: 80%;
+    margin: 200px auto;
+}
+
+section .title > h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+}
+section .title > hr {
+    width: 10%;
+    border: solid 2px #000000;
+    margin: auto;
+    margin-top: 10px;
+}
+
+section .title {
+    margin-bottom: 40px;
+}
+
+section > video {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+section .title_left > h3 {
+    text-align: left;
+    font-size: 32px;
+    font-weight: 500;
+    color: #5a5a5a;
+}
+
+section .title_left > hr {
+    width: 5%;
+    border: solid 2px #5a5a5a;
+    margin-bottom: 10px;
+}
+
+section .title_left {
+    margin-bottom: 80px;
+}
+
+#history title,
+#future title {
+    margin-bottom: 40px;
+}
+
+#history > .flex_box {
+    display: flex;
+    width: 100%;
+}
+
+#history .box1 {
+    width: 40%;;
+}
+
+#history .box2 {
+    width: 60%;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#history table {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#history table td {
+    padding: 20px;
+}
+
+#history table .year {
+    font-weight: 300;
+}
+
+#history table .content {
+    font-weight: 500;
+}
+
+#future .title_left {
+    margin-bottom: 20px;
+}
+
+section .img_box {
+    width: 80%;
+    margin: auto;
+}
+
+#contact .title {
+    margin-bottom: 60px;
+}
+
+#contact article {
+    width: 100%;
+    text-align: center;
+}
+
+#contact article:not(:last-child) {
+    margin-bottom: 80px;
+}
+
+#contact h4 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #5a5a5a;
+    margin-bottom: 20px;
+}
+
+#contact p,
+#contact a {
+    color: black;
+    font-size: 20px;
+}
+
+#contact a {
+    text-decoration: underline;
+}
